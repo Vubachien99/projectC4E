@@ -1,0 +1,162 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.aligment {
+  /* max-width: 1266px; */
+  margin: 0 auto;
+  font-family: "Roboto", sans-serif;
+}
+
+.header {
+  /* max-width: 1266px; */
+  /* height: 100px; */
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 0px;
+  width: 100%;
+  position: fixed;
+}
+
+.header-logo {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+.header-logo img {
+  width: 300px;
+  max-height: 100px;
+  margin-left: 30%;
+}
+
+.header-nav {
+  box-sizing: border-box;
+  padding: 0;
+  margin-left: auto;
+  width: 50%;
+}
+
+.header-nav>ul {
+  display: flex;
+  justify-content: space-around;
+}
+
+.header-nav li {
+  list-style-type: none;
+  color: gainsboro;
+}
+
+.header-nav li a {
+  text-align: none;
+  text-decoration: none;
+  color: gainsboro;
+}
+
+.header-nav li a:hover {
+  color: orange;
+}
+
+.phone {
+  color: azure;
+  background-color: black;
+  margin-right: 10%;
+  padding: 10px;
+  border: 0.5px solid gainsboro;
+  border-radius: 1px;
+}
+
+.heroimg_big {
+  max-height: 400px;
+  width: 100%;
+  object-fit: cover;
+  object-position: 50% 50%;
+}
+
+/* .header-hotline {
+  margin: 10px;
+  color: white;
+} */
+
+/* .header-hotline :hover {
+  background-color: orange; */
+/* } */
+/* .body_section {
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-around;
+}
+.body_left {
+  max-width: 40%;
+}
+.body_right {
+  max-width: 40%;
+} */
+.body_section {
+  margin-top: 30px;
+  margin-left: 18%;
+  margin-right: 18%;
+}
+
+.body_item {
+  float: left;
+  width: 50%;
+  padding: 8px 10px;
+}
+
+.body_title {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.body_img {
+  width: 100%;
+}
+
+.body_content1 {
+  padding: 10px 0px;
+  color: #777;
+}
+
+.body_content2 {
+  padding: 10px 0px;
+  color: #777;
+}
+
+.menu {
+  color: white;
+  padding: 10px 20px;
+  background-color: black;
+  border-radius: 5px;
+  margin: 20px 0px;
+}
+
+/* Footer */
+.footer {
+  clear: left;
+  background-color: black;
+  height: 100px;
+  width: auto;
+}
+
+.footer_content {
+  display: flex;
+  justify-content: space-between;
+  font-size: 12px;
+  padding: 12px;
+}
+
+.content_left {
+  color: rgba(255, 255, 255, 0.5);
+  line-height: 1.6;
+  margin-left: 18%;
+}
+
+.content_right {
+  color: rgba(255, 255, 255, 0.5);
+  line-height: 1.6;
+  margin-right: 18%;
+}

@@ -1,0 +1,180 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.header_nav {
+  background-color: black;
+  position: fixed;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  width: 100%;
+  padding: 0px;
+  margin: 0px;
+}
+
+.nav_img {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+.nav_img>img {
+  width: 300px;
+  max-height: 100px;
+  margin-left: 30%;
+}
+
+.nav_list {
+  box-sizing: border-box;
+  margin-left: auto;
+  width: 50%;
+}
+
+.nav_list>ul {
+  display: flex;
+  justify-content: space-around;
+}
+
+.nav_list>ul>li {
+  color: white;
+  list-style-type: none;
+}
+
+.nav_list ul li a {
+  text-decoration: none;
+  color: gainsboro;
+}
+
+.nav_list ul li a:hover {
+  color: rgb(236, 187, 65);
+  cursor: pointer;
+}
+
+.nav_contac {
+  margin-right: 10%;
+  padding: 10px;
+  background-color: black;
+  border: 1px solid white;
+  border-radius: 2px;
+  color: white;
+}
+
+.hero_img>img {
+  max-height: 400px;
+  object-fit: cover;
+  width: 100%;
+}
+
+/* Body Book */
+
+.body_book {
+  margin-top: 30px;
+  margin-left: 18%;
+  margin-right: 18%;
+  /* box-sizing: border-box; */
+  display: flex;
+  justify-content: space-between;
+  max-width: 100%;
+  background-image: url(./image_Đặt\ bàn/);
+}
+
+.book_table {
+  width: 50%;
+  margin: 10px;
+}
+
+.book_title {
+  margin-bottom: 10px;
+  font-family: "Berkshire Swash", sans-serif;
+}
+
+.book_intro {
+  line-height: 1.6;
+  font-size: 95%;
+  color: #777;
+  margin: 5%px 0px;
+}
+
+.book_suggest {
+  list-style-type: upper-latin;
+  font-size: 95%;
+  margin: 20px 0px;
+}
+
+.book_suggest_selection {
+  list-style-type: upper-latin;
+  margin-left: 5%;
+}
+
+.book_suggest_selection>li {
+  font-size: 95%;
+  padding: 10px 0px;
+  border-bottom: 1px solid black;
+}
+
+.people_book {
+  width: 50%;
+  margin: 10px;
+}
+
+.infor_people_book {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.infor_people_book>input {
+  padding: 2% 0px;
+  margin-bottom: 10px;
+}
+
+.time_table {
+  box-sizing: border-box;
+  line-height: 1.6;
+  display: block;
+}
+
+.check_box {
+  display: inline-block;
+  margin-left: 0px;
+  margin-right: 5px;
+  font-size: 80%;
+}
+
+.book_table_btn {
+  background-color: black;
+  color: white;
+  padding: 2% 4%;
+  border: 1px solid white;
+  border-radius: 3px;
+}
+
+.book_table_btn:hover {
+  background-color: orange;
+  color: black;
+}
+
+/* end body */
+/* start footer */
+.footer {
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  background-color: black;
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 65%;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.footer_left {
+  margin-left: 18%;
+}
+
+.footer_right {
+  margin-right: 18%;
+}
+
+/* end footerdiv */

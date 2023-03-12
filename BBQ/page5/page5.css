@@ -1,0 +1,138 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.aligment {
+    margin: 0 auto;
+    font-family: "Roboto", sans-serif;
+}
+
+.header {
+    display: flex;
+    /* justify-content: space-around;
+    margin: 0; */
+    width: 100%;
+    align-items: center;
+    background-color: black;
+    position: fixed;
+    z-index: 1;
+    /* height: 25%; */
+}
+
+.nav_header {
+    margin-left: auto;
+    width: 50%;
+}
+
+.nav_header ul {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    color: gainsboro
+}
+
+.nav_header ul li:hover {
+    color: rgb(236, 187, 65);
+    cursor: pointer;
+}
+
+.nav_header ul li a {
+    text-decoration: none;
+    color: gainsboro;
+}
+
+.nav_header ul li a:hover {
+    color: rgb(236, 187, 65);
+    cursor: pointer;
+}
+
+.logo_img {
+    margin-left: 50%;
+    width: 300px;
+    max-height: 100px;
+}
+
+.phone {
+    margin-right: 10%;
+    color: gainsboro;
+    background-color: black;
+    padding: 10px 10px;
+    border: 0.5px solid gainsboro;
+    border-radius: 2px;
+}
+
+.slider1 {
+    object-fit: cover;
+    height: 300px;
+    width: 100%;
+}
+
+.content {
+    margin-top: 3%;
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+}
+
+.left {
+    width: 40%;
+}
+
+.left p {
+    padding-bottom: 2%;
+}
+
+.left ul li {
+    list-style: none;
+    padding: 2% 0
+}
+
+/* hr {
+    padding: 2% 0
+} */
+.p1 {
+    margin-top: 3%;
+}
+
+.right {
+    width: 40%;
+}
+
+.right_img_up {
+    width: 80%;
+    object-fit: cover;
+    height: 300px;
+}
+
+/* footer */
+.footer {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    color: aliceblue;
+    padding: 1% 0 1% 0;
+    font-family: "Roboto", sans-serif;
+    font-size: 65%;
+
+}
+
+.footer .left {
+    margin-left: 10%;
+    color: #f0f8ffd9;
+}
+
+.footer .left p {
+
+    margin-bottom: 1%;
+}
+
+.footer .right {
+    margin-right: 10%;
+    color: #f0f8ffd9;
+}
+
+.footer .right p {
+    margin-bottom: 3%;
+}
